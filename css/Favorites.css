@@ -1,0 +1,21 @@
+#favorites .forecast-container .forecast{
+  width: auto;
+  cursor: pointer;
+}
+#favorites .forecast-container .forecast:nth-child(odd){
+  background-color: #262936;
+}
+#favorites .forecast-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#favorites .forecast-container .forecast *{
+pointer-events: none;
+}
+#favorites .container{
+  justify-content: center;
+}
+#favorites .forecast-container .forecast .forecast-content{
+  padding: 20px 20px 50px;
+}

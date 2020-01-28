@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		<title>Herolo Home Assignment</title>
+        <link rel="stylesheet" type="text/css" href="css/WeatherIcons.css">
+        <link rel="stylesheet" type="text/css" href="css/Main.css">
+        <script src="js/Main.js"></script>
+        <script src="js/ApiReq.js"></script>
+        <script src="js/Autocomplete.js"></script>
+        <script src="js/CityForecast.js"></script>
+      </head>
+	<body>
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+						<div class="logo-type">
+							<h1 class="title">Herolo Home Assignment</h1>
+						</div>
+					<div class="main-navigation">
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="Favorites.html">Favorites</a></li>
+						</ul> 
+					</div>
+				</div>
+			</div> 
+			<div class="hero">
+				<div class="container">
+                    <div class="autocomplete">
+						<input type="text" id="locationInput" placeholder="Find your location...">
+                
+                    </div>
+                </div>
+			</div>
+			<div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container">
+						<div class="today forecast">
+							<div class="forecast-header">
+								<div class="day"></div>
+								<div class="date"></div>
+							</div>
+							<div class="forecast-content">
+								<div class="location"><div class="favor image"></div><div class="name"></div></div>
+								<div class="degree">
+                                    <div class="num"></div>
+									<div class="symbol"><sup>o</sup>C</div>
+									<div class="forecast-icon">
+										<div class="image">
+									</div>	
+                                </div>
+                                <div class="moreInfo">
+								    <div class="rainProbability"><img src="images/icon-umberella.png"><div class="value"></div>%</div>
+                                    <div class="windSpeed"><img src="images/icon-wind.png"><div class="value"></div>km/h</div>
+                                </div>
+							</div>
+                        </div>	
+                    </div>
+                    <div class="daysContainer"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
